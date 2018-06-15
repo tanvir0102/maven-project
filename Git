@@ -1,0 +1,36 @@
+git init
+ll
+clear
+git add README.md
+git commit -m "first commit"
+git config --global user.email "vineet67sharma@gmail.com"
+git commit -m "first commit"
+git remote add origin https://github.com/vineet67sharma/staging-env.git
+git push -u origin master
+git config --global user.name "vineet.sharma"
+git push -u origin master
+git config credential.helper
+git remote set-url origin git@github.com:vineet.sharma/repo.git
+git config credential.helper store
+git push https://github.com/repo.git
+~/.netrc
+cd ~/.netrc
+git remote add origin https://github.com/vineet67sharma/staging-env.git
+echo "# staging-env" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/vineet67sharma/staging-env.git
+git push -u origin master
+cd maven-project/
+git init
+git add .
+git remote add origin https://github.com/vineet68sharma/maven-project.git
+git commit -m "frst commit"
+git add .
+ls
+git push -f origin master
+git status
+git push -f origin master
+git remote set-url origin git@github.com:vineet68sharma/maven-project.git
+git push -f origin master
